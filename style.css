@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+body {
+  background-color: #cccc;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+header {
+  width: 100%;
+  padding: 10px 1px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  transition: 0.7s ease;
+}
+header nav ul li {
+  display: inline-block;
+}
+
+header ul li a {
+  color: #f9f9f9;
+}
+header ul li a {
+  text-decoration: none;
+  list-style: none;
+  padding: 0px 10px;
+}
+header.rolar {
+  background-color: #f9f9f9;
+  padding: 25px 3%;
+}
+
+button,
+a {
+  color: rgb(18, 42, 94);
+  text-decoration: none;
+}
+
+header.rolar a {
+  color: rgb(18, 42, 94);
+  font-weight: bold;
+}
+
+h1 {
+  color: rgb(18, 42, 94);
+  margin: 5px 15px;
+}
+
+#europa {
+  background-color: #f9f9f9;
+  margin: 15px;
+}
+
+h2,
+h3 {
+  font-size: 27px;
+  text-align: center;
+  margin: 30px;
+}
+
+h4 {
+  font-size: 24px;
+  margin: 15px;
+}
+p {
+  text-align: center;
+}
+img {
+  width: 98%;
+  height: 500px;
+}
+
+footer {
+  padding: 40px;
+  color: white;
+  margin: 15px;
+  background-color: rgb(18, 42, 94);
+}
